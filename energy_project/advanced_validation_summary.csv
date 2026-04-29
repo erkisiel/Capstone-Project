@@ -1,0 +1,8 @@
+Item,Value
+TimeSeriesSplit Average MAE,29.247
+TimeSeriesSplit Average RMSE,41.0915
+TimeSeriesSplit Average R2,0.9888
+Residual Mean,-0.0864
+Residual Std,35.6931
+Mean Absolute Residual,25.367
+Max Absolute Residual,470.5833

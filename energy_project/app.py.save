@@ -1,0 +1,19 @@
+import streamlit as st
+import joblib
+import pandas as pd
+
+model = joblib.load("energy_model.pkl")
+
+st.title("Energy Consumption Prediction")
+
+hour = st.slider("Hour", 0, 23)
+day = st.slider("Day", 1, 31)
+month = st.slider("Month", 1, 12)
+year = st.slider("Year", 2004, 2018)
+dow = st.slider("Day of Week", 0, 6)
+
+if st.button("Predict"):
+    data = pd.DataFrame([[hour, day, month, year, dow]],
+                        columns=["hour", "day", "month", "year", "day_of_week"])
+
+    prediction = model.pre

@@ -1,0 +1,14 @@
+Item,Value
+Dataset Rows After Advanced Preprocessing,121107
+Dataset Columns After Advanced Preprocessing,13
+Missing Values,0
+Final Model,Tuned Decision Tree Regressor
+Final Test MAE,25.367
+Final Test RMSE,35.6924
+Final Test R2,0.991
+Baseline MAE,301.9441
+Baseline RMSE,378.2166
+Baseline R2,-0.0121
+MAE Improvement Over Baseline (%),91.6
+RMSE Improvement Over Baseline (%),90.56
+Mean Percentage Error (%),1.2603
